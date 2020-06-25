@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="in.amiete.example.navdrawernavmenu.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/main_fragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="in.amiete.example.navdrawernavmenu.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="in.amiete.example.navdrawernavmenu.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/notification_fragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="in.amiete.example.navdrawernavmenu.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/settings_fragment" >
+    </fragment>
+
+</navigation>
